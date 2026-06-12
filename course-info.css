@@ -5,27 +5,60 @@ body {
 }
 
 h1 {
-    text-align: center;/* cenetring the first header*/
-    color: darkgreen;
+    text-align: center;
+    color: rgb(175, 11, 11);
+}
+
+/*outside of the span so it has the paragraph look like the rest inside the div */
+h2.intro-header {
+    background-color: rgba(2, 88, 2, 0.50); /* opacity dark green */
+    color: white; 
+    font-weight: normal; /* no bold */
+    font-size: 16px;
+    text-transform: none; /* no caps */
+    padding: 4px;
+    margin: 0px;
+}
+
+/* only inside of the span so we can still have it that h2 look */
+h2.intro-header span {
+    font-weight: bold;
+    text-transform: uppercase; 
+    color: yellow; 
+    font-size: 20px;
 }
 
 h2 {
-    text-transform: uppercase; 
-    background-color: darkgreen; 
+    text-transform: uppercase; /* upper case all h2 */
+    background-color: rgb(2, 88, 2, 0.50); /*green opacity shadow */
     color: yellow; 
-    padding: 12px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    padding: 4px;
+    margin-top: 25px;
+    margin-bottom: 0px; /* Snaps perfectly flush with the text container block below */
 }
 
 div {
-    border: 3px solid darkgreen; 
-    border-radius: 12px; /*round edges */
-    background-color: white; 
-    margin-bottom: 30px; 
+    border: 3px solid rgb(175, 11, 11); 
+    border-radius:  12px; /* curves around */
+    background-color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
-div p, div ol {
-    padding: 20px; 
+div p {
+    padding: 10px;
     margin: 0px;
+}
+
+/* tabs from the left */
+div ol {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 55px;
+    margin: 0px;
+}
+
+/*space between list */
+div ol li {
+    padding-bottom: 8px;
 }
