@@ -1,0 +1,64 @@
+/* Webpage background canvas styling profiles */
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Centers our primary headline title */
+h1 {
+    text-align: center;
+    color: red;
+}
+
+/* Master box containing our burger stack */
+.burger-layers {
+    width: 480px;
+    margin: 40px auto; /* 40px space top/bottom, auto centers it left/right */
+}
+
+/* TOP BUN: Shaped into a bread dome dome shield using border-radius */
+.top-bun {
+    background-color: rgb(233, 141, 22);
+    height: 90px;
+    border-radius: 90px 90px 10px 10px; /* showing, n */
+  
+}
+
+.lettuce {
+    background-color: green;
+    height: 15px;
+    border-radius: 8px;
+}
+
+.tomato {
+    background-color: rgb(255, 24, 24);
+    height: 25px;
+    border-radius: 5px;
+    
+}
+
+.onion {
+    background-color: purple;
+    height: 14px;
+    border-radius: 5px;
+
+}
+
+.cheese {
+    background-color: yellow;
+    height: 10px;
+    border-radius: 2px;
+  
+}
+
+.patty {
+    background-color: rgb(88, 40, 21);
+    height: 45px;
+    border-radius: 15px;
+
+}
+.bottom-bun {
+    background-color: rgb(233, 141, 22);
+    height: 50px;
+    border-radius: 5px 5px 40px 40px; /* Curves on the bottom-right and bottom-left edges */
+}
