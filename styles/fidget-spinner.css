@@ -1,0 +1,28 @@
+/* Style profiles for the overall canvas body arena */
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    padding: 50px;
+}
+
+h1, p {
+    text-align: center;
+    color: Black; 
+}
+
+.spinner-box {
+    width: 300px;
+    margin: 50px auto;
+}
+
+.spinner-box img {
+    width: 100%; /*inside the box */
+    
+    /* has to go through loop without stops */
+    transition: transform 10s ease-out;
+}
+
+.spinner-box img:hover {
+    /* goes 10 full circle when it hovers over*/
+    transform: rotate(3600deg);
+}
